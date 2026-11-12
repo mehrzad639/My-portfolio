@@ -15,7 +15,7 @@ const translations = {
         landingProject: "Landing Page", landingDescription: "A modern landing page design.",
         designProject: "Web Design", designDescription: "A creative web design project.",
         contactTitle: "Contact", contactDescription: "Feel free to get in touch with me!",
-        sayHello: "Say Hello", copyright: "© 2026 My portfolio. All rights reserved.",
+        sayHello: "Say Hello", whatsappSupport: "WhatsApp Support", copyright: "© 2026 My portfolio. All rights reserved.",
         message: "Thank you for visiting my portfolio! Have a great day!"
     },
     fa: {
@@ -34,7 +34,7 @@ const translations = {
         landingProject: "صفحهٔ فرود", landingDescription: "طراحی مدرن صفحهٔ فرود.",
         designProject: "طراحی وب", designDescription: "یک پروژهٔ خلاقانهٔ طراحی وب.",
         contactTitle: "ارتباط با", contactDescription: "برای ارتباط با من پیام بدهید!",
-        sayHello: "سلام کن", copyright: "© ۲۰۲۶ نمونه‌کار من. تمامی حقوق محفوظ است.",
+        sayHello: "سلام کن", whatsappSupport: "پشتیبانی در واتساپ", copyright: "© ۲۰۲۶ نمونه‌کار من. تمامی حقوق محفوظ است.",
         message: "از بازدید شما از نمونه‌کار من سپاسگزارم! روز خوبی داشته باشید."
     }
 };
