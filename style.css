@@ -285,3 +285,70 @@ body.fa .hero-content {
 body.fa .section {
     text-align: center;
 }
+
+/* Professional portfolio theme refresh */
+body {
+    background-color: #080d1b;
+    background-image: linear-gradient(rgba(5, 10, 22, .28), rgba(5, 10, 22, .48)), url("akss/portfolio-bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f4f8ff;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(8, 13, 27, .78);
+    border-bottom: 1px solid rgba(0, 217, 255, .2);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+.navbar { align-items: center; }
+.nav-links a { color: #e5efff; }
+.hero { min-height: 78vh; background: transparent; }
+.hero h1 { font-size: clamp(32px, 5vw, 58px); line-height: 1.2; }
+.welcome { color: #00d9ff; font-weight: 700; letter-spacing: 3px; }
+.description, .section > p { color: #c5d2e8; }
+.btu, button {
+    background: linear-gradient(135deg, #00d9ff, #6a8cff);
+    color: #07101f;
+    border-radius: 10px;
+    box-shadow: 0 8px 28px rgba(0, 217, 255, .2);
+}
+.btu:hover, button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 34px rgba(0, 217, 255, .32);
+}
+.section { scroll-margin-top: 90px; }
+.card {
+    background: rgba(12, 22, 42, .78);
+    border: 1px solid rgba(91, 181, 255, .25);
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, .2);
+}
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #00d9ff;
+    box-shadow: 0 18px 42px rgba(0, 217, 255, .12);
+}
+footer {
+    background: rgba(8, 13, 27, .82);
+    border-top: 1px solid rgba(0, 217, 255, .16);
+}
+.profole-image img, .profile-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00d9ff;
+    box-shadow: 0 0 35px rgba(0, 217, 255, .35);
+}
+#languageBtn { background: #00d9ff; }
+@media (max-width: 600px) {
+    body { background-attachment: scroll; }
+    .profole-image img, .profile-image img { width: 180px; height: 180px; }
+}
