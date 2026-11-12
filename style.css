@@ -6,14 +6,20 @@
 }
 
 body {
-    background-image: url("akss/ba.png");
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #10121b;
+    background-image: linear-gradient(rgba(10, 14, 25, 0.58), rgba(10, 14, 25, 0.68)), url("akss/ba.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    line-height: 1.6;
 }
 
 header {
-    background: #171a27;
+    background: rgba(23, 26, 39, 0.78);
     padding: 20px 8%;
 }
 
@@ -57,7 +63,7 @@ h2 span {
     justify-content: center;
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #10121b, #202b45);
+    background: transparent;
 }
 
 .Welcome {
@@ -131,7 +137,7 @@ button:hover {
 }
 
 .card {
-    background: #1c2233;
+    background: rgba(28, 34, 51, 0.82);
     padding: 30px;
     width: 250px;
     border-radius: 15px;
