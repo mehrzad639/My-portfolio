@@ -57,7 +57,7 @@ h2 span {
     justify-content: center;
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #10121b, #202b45);
+    background: transparent;
 }
 
 .Welcome {
